@@ -1,0 +1,51 @@
+Title: About
+
+----
+
+Text: 
+
+----
+
+Instructor1: Christie
+
+----
+
+Instructor1-body: 
+
+Christie is the founder of PushxPull Studio. Christie is an athletic opportunist and has been trained in numerous excercise methods across San Francisco, New York, Denver and Vancouver. Christie is dedicated to ensuring her clients maximize their workouts and leave feeling stronger and more flexible than before, while craving another session in the studio.
+
+Christie’s background in the arts, also means she’s constantly thinking of new and creative ways to bring her workouts to life and curate one of a kind experiences for all her clients. <a href="../studio">Come drop by the studio and say hi.</a>
+
+----
+
+Instructor2: Britta
+
+----
+
+Instructor2-body: 
+
+Britta, has spent most of her life involved with competitive sports. Having played NCAA division one soccer at the University of Idaho, before moving onto play soccer at Oxford University.
+
+Having spent most of her life involved in competitive sports, it was an easy transition into the world of fitness and health. Britta started with a spin certification while at University in 2009, which led to a certification in Group Fitness and eventually a Personal Training certification.
+
+For Britta, fitness isn't just about the aesthetic physical benefits - it's about community, commitment and feeling like apart of something.
+
+----
+
+Instructor1-certs: 
+
+Barre Instructor, TRX Certified Trainer, Dailey Method Barre Instructor, Dailey Method Interval Instructor, Pilates Fusion Instructor, YFit Instructor (YYoga – Interval Training)
+
+Past: Tracy Anderson Vitality Weeks, Ice Hockey Coach 2 Certification, BA Arts/Nutrition, MA Art Theory
+
+----
+
+Instructor2-certs: 
+
+Canfitpro Personal Trainer Certification
+
+Canfitpro Fitness Instructor Specialist Certification
+
+Lemonde Spin Certification
+
+CPR/First Aid

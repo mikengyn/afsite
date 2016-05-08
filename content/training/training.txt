@@ -1,0 +1,69 @@
+Title: Blog
+
+----
+
+Header: Training
+
+----
+
+Intro: Expect to achieve personal bests in a supportive atmosphere of four clients or less. The core of each session seamlessly blends TRX, weight training, Pilates movements, and active stretching. Variations of our classes include focuses on corexfascia, or cardio. Variety will keep your body guessing. You will leave feeling challenged, and balanced. Results are inevitable.
+
+----
+
+Program-1-title: Full Body 60
+
+----
+
+Program-1: TRX,Pilates Fusion,Weights,Active Stretching
+
+----
+
+Program-2-title: Full Body 45
+
+----
+
+Program-2: TRX,Pilates Fusion,Weights,Active Stretching
+
+----
+
+Program-3-title: Stretch 45
+
+----
+
+Program-3: Fascia Release,Mobility Work,Assisted Stretching,Active Stretching
+
+----
+
+Program-4-title: 
+
+----
+
+Program-4: 
+
+----
+
+Program-5-title: 
+
+----
+
+Program-5: 
+
+----
+
+Program-6-title: 
+
+----
+
+Program-6: 
+
+----
+
+Program-7-title: 
+
+----
+
+Program-7: 
+
+----
+
+Text: 
