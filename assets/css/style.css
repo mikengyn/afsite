@@ -1114,15 +1114,15 @@ html {
   vertical-align: middle; }
 
 .grid-item img:hover {
-  -webkit-transform: scale(1.3);
+  -webkit-transform: scale(1.1);
   /* Safari and Chrome */
-  -moz-transform: scale(1.3);
+  -moz-transform: scale(1.1);
   /* Firefox */
-  -ms-transform: scale(1.3);
+  -ms-transform: scale(1.1);
   /* IE 9 */
-  -o-transform: scale(1.3);
+  -o-transform: scale(1.1);
   /* Opera */
-  transform: scale(1.3); }
+  transform: scale(1.1); }
 
 .blog-link {
   -webkit-animation-duration: 0.3s;

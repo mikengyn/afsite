@@ -1,16 +1,31 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Studio
+title: Contact
 pages: false
 files:
   sortable: true
 fields:
+
   title:
-    label: Title
+    label: Header Title
     type:  text
 
-  content:
+  secondaryHeader1:
+    label: Secondary Header Title
+    type:  text
+
+ contactContent:
     label: Content
     type:  textarea
+
+ secondaryHeader2:
+    label: Contact title
+    type:  text
+
+ info:
+    label: Company Information
+    type:  textarea
+
+
 
 

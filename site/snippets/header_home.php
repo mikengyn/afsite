@@ -3,15 +3,28 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title> <?php echo $page->pagetitle() ?></title>
+    <title> <?php echo $page->title() ?></title>
     <meta name="description" content="<?php echo $site->description() ?>"/>
     <link rel="shortcut icon" href="<?php echo $site->images()->find('favicon.jpg')->url() ?>">
 
-
-    <meta property="og:site_name" content="Axisfocal Wedding Photography" />
+    <meta property="og:site_name" content="<?php echo $site->title() ?>" />
     <meta property="og:title" content="<?php echo $page->title() ?> :: Axisfocal Wedding Photography" />
     <meta property="og:description" content="<?php echo $site->description() ?>" />
 
+    <!--
+         _____ ______   ___  ___  __    _______   ________   ________  ___  ___      ___    ___ _______   ________       _____ ______   _______
+        |\   _ \  _   \|\  \|\  \|\  \ |\  ___ \ |\   ___  \|\   ____\|\  \|\  \    |\  \  /  /|\  ___ \ |\   ___  \    |\   _ \  _   \|\  ___ \
+        \ \  \\\__\ \  \ \  \ \  \/  /|\ \   __/|\ \  \\ \  \ \  \___|\ \  \\\  \   \ \  \/  / | \   __/|\ \  \\ \  \   \ \  \\\__\ \  \ \   __/|
+         \ \  \\|__| \  \ \  \ \   ___  \ \  \_|/_\ \  \\ \  \ \  \  __\ \  \\\  \   \ \    / / \ \  \_|/_\ \  \\ \  \   \ \  \\|__| \  \ \  \_|/__
+          \ \  \    \ \  \ \  \ \  \\ \  \ \  \_|\ \ \  \\ \  \ \  \|\  \ \  \\\  \   \/  /  /   \ \  \_|\ \ \  \\ \  \ __\ \  \    \ \  \ \  \_|\ \
+           \ \__\    \ \__\ \__\ \__\\ \__\ \_______\ \__\\ \__\ \_______\ \_______\__/  / /      \ \_______\ \__\\ \__\\__\ \__\    \ \__\ \_______\
+            \|__|     \|__|\|__|\|__| \|__|\|_______|\|__| \|__|\|_______|\|_______|\___/ /        \|_______|\|__| \|__\|__|\|__|     \|__|\|_______|
+                                                                                   \|___|/
+
+    designed by http://mikenguyen.me ϟ COMMON STUDIO twitter.com/cmmnstudio
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+    <?php include("googleanalytics.php"); ?>
     <?php echo js('assets/js/jquery.js') ?>
     <?php echo js('assets/js/modernizr.js') ?>
 

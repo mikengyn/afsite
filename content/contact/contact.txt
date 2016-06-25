@@ -1,9 +1,33 @@
-Title: Contact
+Title: Contact Us
 
 ----
 
-Header:
+Header: 
 
 ----
 
-Content:
+Content: 
+
+Now booking limited dates in 2016 and accepting inquiries for 2017.
+
+We’d love to hear your story and get to know you. For questions and pricing inquiries
+
+----
+
+Secondaryheader1: Let’s get in touch!
+
+----
+
+Secondaryheader2: Find us on
+
+----
+
+Info: Axisfocal is a Calgary, Alberta based company. We are available for travel anywhere in Alberta. Please contact us for information regarding international Weddings.
+
+----
+
+Contactcontent: 
+
+Now booking limited dates in 2016 and accepting inquiries for 2017.
+
+We’d love to hear your story and get to know you. For questions and pricing inquiries

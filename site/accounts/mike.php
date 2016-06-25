@@ -7,6 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - about
+  - portfolio
   - contact
   - home
   - training

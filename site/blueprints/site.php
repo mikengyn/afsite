@@ -27,12 +27,3 @@ fields:
   email:
     label: Email
     type:  email
-  address:
-    label: Address
-    type: text
-  city:
-    label: City Province Postal
-    type: text
-  googlemaps:
-    label: Google Maps link
-    type: Url

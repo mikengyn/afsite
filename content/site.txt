@@ -2,15 +2,18 @@ Title: AXISFOCAL Wedding Photography
 
 ----
 
-Author: COMMON STUDIO
+Author: Kanye west
 
 ----
 
 Description: 
 
+We are a wedding photography company based in Calgary, Alberta, Canada
+Available for bookings in the Calgary area and international destinations.
+
 ----
 
-Keywords: Kirby,CMS,file-based
+Keywords: Photography,Wedding,Calgary
 
 ----
 
@@ -27,15 +30,3 @@ Instagram: http://instagram.com/axisfocal
 ----
 
 Email: neil@axisfocal.com
-
-----
-
-Address: #108 - 1529 W 6th Ave
-
-----
-
-City: Calgary
-
-----
-
-Googlemaps: https://goo.gl/maps/Gfwpny715UK2

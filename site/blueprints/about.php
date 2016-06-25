@@ -5,23 +5,48 @@ pages: false
 files: true
 fields:
   title:
-    label: Title
+    label: Header Title
     type:  text
-  instructor1:
-    label: Instructor 1 Name
+  quote:
+    label: Quote Excerpt
+    type:  textarea
+  mainParagraph:
+    label: Main Text
+    type:  textarea
+
+  secondaryCaption:
+    label: Secondary Caption
     type:  text
-  instructor1_body:
-    label: Instructor 1 Body
+  secondaryText:
+    label: Secondary Text
     type:  textarea
-  instructor1_certs:
-    label: Instructor 1 Certifications
-    type:  textarea
-  instructor2:
-    label: Instructor 2 Name
+
+   midTitle:
+    label: Introduction Title
     type:  text
-  instructor2_body:
-    label: Instructor 2 Body
+
+  person1Name:
+    label: Photog 1 name
+    type:  text
+
+  person1IG:
+    label: Photog 1 Handle
+    type:  text
+
+    
+  person1Body:
+    label: Photog 1 Description
     type:  textarea
-  instructor2_certs:
-    label: Instructor 2 Certifications
+
+
+  person2Name:
+    label: Photog 2 name
+    type:  text
+
+  person2IG:
+    label: Photog 2 Handle
+    type:  text
+
+  person2Body:
+    label: Photog 2 Description
     type:  textarea

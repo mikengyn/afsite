@@ -11,3 +11,15 @@ Header: Turning the moments of today into memories that last a lifetime.
 ----
 
 Caption: 
+
+----
+
+Secondary: We are a wedding photography company based in Calgary, Alberta, Canada
+
+----
+
+Secondary-caption: Available for bookings in the Calgary area and international destinations.
+
+----
+
+Calltoactiontext: Let's get in touch

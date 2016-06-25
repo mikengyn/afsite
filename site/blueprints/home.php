@@ -9,6 +9,12 @@ fields:
   header:
     label: Header
     type:  text
-  caption:
-    label: Caption
+  secondary:
+    label: Secondary Header
+    type:  text
+  secondary_caption:
+    label: Secondary Caption
+    type:  text
+  callToActionText:
+    label: Call to action button text
     type:  text

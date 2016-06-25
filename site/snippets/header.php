@@ -12,12 +12,24 @@
   <meta property="og:title" content="<?php echo $page->title() ?> :: Axisfocal Wedding Photography" />
   <meta property="og:description" content="<?php echo $site->description() ?>" />
 
+  <!--
+     _____ ______   ___  ___  __    _______   ________   ________  ___  ___      ___    ___ _______   ________       _____ ______   _______
+    |\   _ \  _   \|\  \|\  \|\  \ |\  ___ \ |\   ___  \|\   ____\|\  \|\  \    |\  \  /  /|\  ___ \ |\   ___  \    |\   _ \  _   \|\  ___ \
+    \ \  \\\__\ \  \ \  \ \  \/  /|\ \   __/|\ \  \\ \  \ \  \___|\ \  \\\  \   \ \  \/  / | \   __/|\ \  \\ \  \   \ \  \\\__\ \  \ \   __/|
+     \ \  \\|__| \  \ \  \ \   ___  \ \  \_|/_\ \  \\ \  \ \  \  __\ \  \\\  \   \ \    / / \ \  \_|/_\ \  \\ \  \   \ \  \\|__| \  \ \  \_|/__
+      \ \  \    \ \  \ \  \ \  \\ \  \ \  \_|\ \ \  \\ \  \ \  \|\  \ \  \\\  \   \/  /  /   \ \  \_|\ \ \  \\ \  \ __\ \  \    \ \  \ \  \_|\ \
+       \ \__\    \ \__\ \__\ \__\\ \__\ \_______\ \__\\ \__\ \_______\ \_______\__/  / /      \ \_______\ \__\\ \__\\__\ \__\    \ \__\ \_______\
+        \|__|     \|__|\|__|\|__| \|__|\|_______|\|__| \|__|\|_______|\|_______|\___/ /        \|_______|\|__| \|__\|__|\|__|     \|__|\|_______|
+                                                                               \|___|/
+
+    designed by http://mikenguyen.me ϟ COMMON STUDIO twitter.com/cmmnstudio
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+  <?php include("googleanalytics.php"); ?>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/foundation.css"/>
   <link rel="stylesheet" href="assets/css/style.css"/>
   <link rel="stylesheet" href="assets/css/style.scss"/>
-
-
 
 
   <script type="text/javascript">

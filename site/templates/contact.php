@@ -6,7 +6,9 @@
         <div class="row">
             <div class="large-12 medium-12 columns large-centered text-center">
 
-                <h1>Contact Us</h1>
+                <h1>
+                    <?php echo $page->title() ?>
+                </h1>
 
             </div>
         </div>
@@ -19,34 +21,41 @@
 
         <div class="row">
             <div class="large-4 columns">
-                <h3>Let’s get in touch!</h3>
+                <h3>
+                    <?php echo $page->secondaryHeader1() ?>
+                </h3>
             </div>
             <div class="large-7 large-offset-1 columns">
-                <p>Now booking limited dates in 2016 and accepting inquiries for 2017.</p>
+                <p>
+                    <?php echo $page->contactContent() ?>
+                </p>
 
-                <p>We’d love to hear your story and get to know you. For questions and pricing inquiries</p>
-
-                <p>Contact us at <a href="mailto:neil@axisfocal.com">neil@axisfocal.com</a></p>
+                <p>Contact us at <a href="mailto:<?php echo $site->email()?>"><?php echo $site->email()?></a></p>
             </div>
         </div>
 
         <div class="row">
             <div class="large-4 columns">
-                <h3>Find us on</h3>
+                <h3>
+                    <?php echo $page->secondaryHeader2() ?>
+
+                </h3>
             </div>
             <div class="large-7 large-offset-1 columns">
 
-                <p><a href="http://instagram.com/axisfocal">Instagram</a></p>
+                <p><a href="<?php echo $site->instagram()?>">Instagram</a></p>
 
-                <p><a href="http://facebook.com/axisfocal">Facebook</a></p>
+                <p><a href="<?php echo $site->facebook()?>">Facebook</a></p>
             </div>
 
         </div>
 
         <div class="row">
             <div class="large-offset-5 large-7 columns">
-            <p>Axis Focal is a Calgary, Alberta based company. We are available for travel anywhere in Alberta. Please
-                contact us for information regarding international Weddings.</p>
+            <p>
+                <?php echo $page->info() ?>
+
+            </p>
                 </div>
         </div>
 
@@ -71,8 +80,7 @@
 
 
         <div id="mc_embed_signup">
-            <form action="//pushxpull.us12.list-manage.com/subscribe/post?u=d5cb536ebea5d2f6912a0dc8d&amp;id=84b115f879"
-                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+            <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                   class="validate join-form" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
 

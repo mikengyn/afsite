@@ -1,22 +1,13 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Private Training
+title: Portfolio
 pages: false
 files:
   sortable: true
 fields:
   title:
-    label: Title
+    label: Header
     type:  text
-  header1:
-    label: Header1
-    type:  text
-  body1:
-    label: Body 1
-    type:  textarea
-  header2:
-    label: Header2
-    type:  text
-  body2:
-    label: Body 2
+  help:
+    label: How to organize your images
     type:  textarea

@@ -22,8 +22,8 @@
 
                 <div class="large-3 medium-4 columns large-offset-1 right">
 
-                    <a href="#" data-reveal-id="joinModal">
-                        <span class="btn">Get AXISFOCAL Updates</span>
+                    <a href="<?php echo $site->find('contact')->id() ?>">
+                        <span class="btn">Contact AXISFOCAL</span>
                     </a>
                 </div>
 
@@ -76,7 +76,7 @@
                 <div class="small-12 columns text-center footer-mobile join">
                     <ul>
                         <li>
-                            <a class="small-join-btn" href="#" data-reveal-id="joinModal"><span class="btn">Get AXISFOCAL Updates</span></a>
+                            <a class="small-join-btn" href="<?php echo $site->find('contact')->id() ?>"><span class="btn">Contact AXISFOCAL</span></a>
                         </li>
                     </ul>
                 </div>
