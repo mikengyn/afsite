@@ -25,7 +25,7 @@
     designed by http://mikenguyen.me ϟ COMMON STUDIO twitter.com/cmmnstudio
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 
-  <?php include("googleanalytics.php"); ?>
+  <?php include('googleanalytics.php') ?>2
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/foundation.css"/>
   <link rel="stylesheet" href="assets/css/style.css"/>

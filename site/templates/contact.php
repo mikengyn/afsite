@@ -29,10 +29,60 @@
                 <p>
                     <?php echo $page->contactContent() ?>
                 </p>
-
-                <p>Contact us at <a href="mailto:<?php echo $site->email()?>"><?php echo $site->email()?></a></p>
             </div>
         </div>
+
+
+        <!-- contact form-->
+        <form class="contact-form" id="ajax-contact" role="form" method="POST" action="mailer.php">
+            <div class="row">
+                <div class="large-6 columns">
+                        <input class="join-input" id="first_name" name="first_name" required type="text" placeholder="First Name" />
+                </div>
+                <div class="large-6 columns">
+                    <input class="join-input" id="last_name" name="last_name" required type="text" placeholder="Last Name" />
+                </div>
+
+            </div>
+
+            <!--subject-->
+            <div class="row">
+                <div class="large-12 columns">
+                    <input class="join-input" id="email" name="email" required type="email" placeholder="Email" />
+                </div>
+            </div>
+
+            <!--subject-->
+            <div class="row">
+                <div class="large-12 columns">
+                    <input class="join-input" id="subject" name="subject" required type="text" placeholder="Subject" />
+                </div>
+            </div>
+
+            <!--subject-->
+            <div class="row">
+                <div class="large-12 columns">
+                    <textarea cols="30" rows="5" placeholder="Message" id="message" name="message"></textarea>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="large-6 columns">
+
+                    <input type="submit" class="input-submit" value="Submit your inquiry">
+        </form>
+                    </div>
+
+                <div id="form-messages" class="large-6 columns text-center">
+
+                </div>
+
+            </div>
+
+
+        <!-- end contact form-->
+
 
         <div class="row">
             <div class="large-4 columns">
@@ -46,6 +96,8 @@
                 <p><a href="<?php echo $site->instagram()?>">Instagram</a></p>
 
                 <p><a href="<?php echo $site->facebook()?>">Facebook</a></p>
+
+                <p><a href="mailto:<?php echo $site->email()?>"><?php echo $site->email()?></a></p>
             </div>
 
         </div>
@@ -58,13 +110,11 @@
             </p>
                 </div>
         </div>
+            </div>
 
 
-    </div>
 
-    <div class="content-text">
 
-    </div>
 
 </div>
 
@@ -122,7 +172,15 @@
 
 <?php snippet('footer') ?>
 
+<?php echo js('assets/js/polyfiller/polyfiller.js') ?>
+<?php echo js('assets/js/app.js') ?>
+
 <script>
+
+    webshim.activeLang('en');
+    webshims.polyfill('forms');
+    webshims.cfg.no$Switch = true;
+
     $(document).ready(function () {
 
 

@@ -560,7 +560,7 @@ header ul, li {
   color: #323838; }
 
 .index-wrapper a:hover {
-  color: #BFAD84; }
+  color: #4fa1c2; }
 
 .index-wrapper h1 {
   text-align: center;
@@ -985,12 +985,8 @@ footer .copyright {
   position: relative;
   overflow: hidden; }
 
-#joinModal {
-  background: none;
-  color: #FFF;
-  border: none;
-  box-shadow: none;
-  font: 0.9em/1.2em "Maison Neue Mono", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; }
+.contact-form {
+  font-family: "Maison Neue Mono", "Courier New", Courier, monospace; }
 
 #joinModal h3 {
   color: #fff; }
@@ -1013,23 +1009,60 @@ footer .copyright {
   margin-top: 30px; }
 
 .join-input {
-  padding: 20px 0px 20px 0px  !important;
   display: block;
   background-repeat: no-repeat;
-  color: #FFF !important;
+  color: #333 !important;
   background-color: transparent !important;
   border: none !important;
-  border-bottom: solid 1px #f2f2f2 !important;
-  font-size: 20px !important; }
+  border-bottom: solid 1px #CDCDCD !important;
+  font-size: 20px !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important; }
+
+textarea {
+  font-size: 1em;
+  height: 200px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+textarea:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #FFF; }
 
 input:focus, input:valid {
   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
   outline: none !important;
-  background-position: 0 0; }
+  background-position: 0 0;
+  -webkit-box-shadow: none; }
 
 input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
-  color: #FFF;
+  color: #4fa1c2;
   font-size: 20px; }
+
+.input-submit {
+  background: transparent;
+  font-family: "Maison Neue Mono", "Courier New", Courier, monospace;
+  font-size: 1em;
+  cursor: pointer;
+  border: 0 none;
+  border-bottom: 1px;
+  border-style: dotted;
+  border-radius: 0;
+  -webkit-border-radius: 0px;
+  webkit-appearance: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.input-submit:hover {
+  color: #4fa1c2; }
 
 .reveal-modal-inner {
   margin: 0 auto !important;
@@ -1050,7 +1083,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #fff; }
+  -webkit-text-fill-color: #333; }
 
 /* Masonry */
 * {
@@ -1141,5 +1174,15 @@ html {
 
 .person {
   margin-bottom: 0px; }
+
+.success {
+  color: #7ED321; }
+
+.error {
+  color: #EC4663; }
+
+#form-messages {
+  margin-top: 10px;
+  margin-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */

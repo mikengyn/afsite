@@ -7,9 +7,16 @@
     <meta name="description" content="<?php echo $site->description() ?>"/>
     <link rel="shortcut icon" href="<?php echo $site->images()->find('favicon.jpg')->url() ?>">
 
+    <meta property="og:type" content="website">
     <meta property="og:site_name" content="<?php echo $site->title() ?>" />
-    <meta property="og:title" content="<?php echo $page->title() ?> :: Axisfocal Wedding Photography" />
+    <meta property="og:title" content="<?php echo $page->title() ?>"/>
     <meta property="og:description" content="<?php echo $site->description() ?>" />
+    <meta property="og:image" content="<?php echo $site->images()->find('splash_mobile.jpg')->url() ?>"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"  content="<?php echo $page->title() ?>"/>
+    <meta name="twitter:description" content="<?php echo $site->description() ?>" />
+    <meta name="twitter:image"  content="<?php echo $site->images()->find('splash_mobile.jpg')->url() ?>"/>
 
     <!--
          _____ ______   ___  ___  __    _______   ________   ________  ___  ___      ___    ___ _______   ________       _____ ______   _______
@@ -24,7 +31,7 @@
     designed by http://mikenguyen.me ϟ COMMON STUDIO twitter.com/cmmnstudio
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 
-    <?php include("googleanalytics.php"); ?>
+    <?php include('googleanalytics.php') ?>
     <?php echo js('assets/js/jquery.js') ?>
     <?php echo js('assets/js/modernizr.js') ?>
 
@@ -65,7 +72,7 @@
         <ul>
             <li><a href="<?php echo $site->find('about')->id() ?>"><?php echo $site->find('about')->title() ?></a></li>
             <li><a href="<?php echo $site->find('portfolio')->id() ?>"><?php echo $site->find('portfolio')->title() ?></a></li>
-            <li class="blog-link"><a><?php echo $site->find('training')->title() ?></a></li>
+            <li><a href="http://axisfocal.tumblr.com"><?php echo $site->find('training')->title() ?></a></li>
             <li><a href="<?php echo $site->find('contact')->id() ?>"><?php echo $site->find('contact')->title() ?></a></li>
         </ul>
     </div>
@@ -108,7 +115,7 @@
                     <ul id="header-nav">
                         <li><a href="<?php echo $site->find('about')->id() ?>"><?php echo $site->find('about')->title() ?></a></li>
                         <li><a href="<?php echo $site->find('portfolio')->id() ?>"><?php echo $site->find('portfolio')->title() ?></a></li>
-                        <li class="blog-link"><a><?php echo $site->find('training')->title() ?></a></li>
+                        <li><a href="http://axisfocal.tumblr.com"><?php echo $site->find('training')->title() ?></a></li>
                         <li><a href="<?php echo $site->find('contact')->id() ?>"><?php echo $site->find('contact')->title() ?></a></li>
                     </ul>
                 </div>
@@ -119,15 +126,6 @@
 
 <script>
 
-
-     var bloglink = '.blog-link';
-        $(bloglink).click(function(){
-            $(bloglink).addClass('animated shake').one('webKitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-
-            function() {
-                $(bloglink).removeClass('animated shake');
-            });
-        });
 
 
 </script>

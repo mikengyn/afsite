@@ -66,7 +66,7 @@
 
             </div>
             <div class="large-7 large-offset-1 columns">
-                <h3>Neil &nbsp;
+                <h3><?php echo $page->person1Name() ?>
                     <small><a href="http://instagram.com/<?php echo $page->person1IG() ?>">@<?php echo $page->person1IG() ?></a></small>
                 </h3>
                 <p>
@@ -85,7 +85,7 @@
 
             </div>
             <div class="large-7 large-offset-1 columns">
-                <h3>Thomas &nbsp;
+                <h3><?php echo $page->person2Name() ?>
                     <small><a href="http://instagram.com/<?php echo $page->person2IG() ?>">@<?php echo $page->person2IG() ?></a></small>
                 </h3>
                 <p>
