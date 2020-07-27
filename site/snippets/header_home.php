@@ -28,14 +28,14 @@
             \|__|     \|__|\|__|\|__| \|__|\|_______|\|__| \|__|\|_______|\|_______|\___/ /        \|_______|\|__| \|__\|__|\|__|     \|__|\|_______|
                                                                                    \|___|/
 
-    designed by http://mikenguyen.me ϟ COMMON STUDIO twitter.com/cmmnstudio
+    designed by http://mikenguyen.me ϟ
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-->
 
     <?php include('googleanalytics.php') ?>
     <?php echo js('assets/js/jquery.js') ?>
     <?php echo js('assets/js/modernizr.js') ?>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php echo css('assets/css/foundation.css') ?>
     <?php echo css('assets/css/style.css') ?>
     <?php echo css('assets/css/animate.css') ?>
@@ -54,6 +54,8 @@
         Typekit.load({async: true});
     } catch (e) {
     }</script>
+
+
 </head>
 
 
@@ -70,10 +72,10 @@
 <div class="menu">
     <div class="main-menu">
         <ul>
-            <li><a href="<?php echo $site->find('about')->id() ?>"><?php echo $site->find('about')->title() ?></a></li>
-            <li><a href="<?php echo $site->find('portfolio')->id() ?>"><?php echo $site->find('portfolio')->title() ?></a></li>
-            <li><a href="http://axisfocal.tumblr.com"><?php echo $site->find('training')->title() ?></a></li>
-            <li><a href="<?php echo $site->find('contact')->id() ?>"><?php echo $site->find('contact')->title() ?></a></li>
+            <li><a href="https://legalhustleclothing.com/shop/product-category/adults/">Adults</a></li>
+            <li><a href="https://legalhustleclothing.com/shop/product-category/littlehustlersclothing/">Little Hustlers</a></li>
+            <li><a href="mailto:info@legalhustleclothing.com">Contact us</a></li>
+            <li><a href="http://instagram.com/legalhustleclothing">Instagram</a></li>
         </ul>
     </div>
 </div>
@@ -83,8 +85,8 @@
         <div class="row">
             <div class="small-2 columns">
                 <div id="logo-small">
-                    <a href="http://axisfocal.com">
-                        <img src="<?php echo  $site->images()->find('header_logo.png')->url() ?>" />
+                    <a href="http://legalhustleclothing.com">
+                        <img src="content/LHCLogo.png" />
                     </a>
                 </div>
             </div>
@@ -103,23 +105,35 @@
 <div class="hide-for-small">
     <header>
         <div class="row">
-            <div class="small-2 columns">
+                    <nav class="large-5 medium-4 small-10 columns">
+                        <div class="hide-for-small">
+                            <ul id="header-nav">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="https://legalhustleclothing.com/shop/product-category/adults">ADULTS</a></li>
+                                <li><a href="https://legalhustleclothing.com/shop/product-category/littlehustlersclothing">KIDS</a></li>
+                                 <li><a href=""> </a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+            <div class="small-1 columns">
                 <div id="logo">
-                    <a href="http://axisfocal.com">
-                        <img src="<?php echo  $site->images()->find('header_logo.png')->url() ?>" />
+                    <a href="http://legalhustleclothing.com">
+                         <img src="content/LHCLogo.png" />
                     </a>
                 </div>
             </div>
-            <nav class="large-7 large-offset-3 medium-8 medium-offset-2 small-10 columns">
-                <div class="hide-for-small">
-                    <ul id="header-nav">
-                        <li><a href="<?php echo $site->find('about')->id() ?>"><?php echo $site->find('about')->title() ?></a></li>
-                        <li><a href="<?php echo $site->find('portfolio')->id() ?>"><?php echo $site->find('portfolio')->title() ?></a></li>
-                        <li><a href="http://axisfocal.tumblr.com"><?php echo $site->find('training')->title() ?></a></li>
-                        <li><a href="<?php echo $site->find('contact')->id() ?>"><?php echo $site->find('contact')->title() ?></a></li>
-                    </ul>
-                </div>
-            </nav>
+
+            <nav class="large-5 medium-4 small-10 columns">
+                       <div class="hide-for-small">
+                            <ul id="header-nav">
+                                   <li><a href=""> </a></li>
+                                 <li><a href="http://legalhustleclothing.com/shop/">BLOG</a></li>
+                                 <li><a href="mailto:info@legalhustleclothing.com">CONTACT US</a></li>
+
+                             </ul>
+                         </div>
+                     </nav>
         </div>
     </header>
 </div>

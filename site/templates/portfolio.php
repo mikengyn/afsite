@@ -26,7 +26,7 @@
     <div class="grid portfolio-gallery">
         <div class="grid-sizer"></div>
 
-        <?php foreach($page->images() as $pic): ?>
+        <?php foreach($page->images()->sortBy('sort', 'asc') as $pic): ?>
 
         <?php if ($pic->filename() != "main.jpg") { ?>
 

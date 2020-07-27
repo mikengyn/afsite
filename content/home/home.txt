@@ -1,12 +1,12 @@
-Title: Home
+Title: Legal Hustle Clothing® | MMXI The Original Legal Hustle Clothing® Brand  Classic Streetwear | Made in Canada
 
 ----
 
-Pagetitle: Axisfocal Wedding Photography
+Page title:
 
 ----
 
-Header: Turning the moments of today into memories that last a lifetime.
+Header: The Original Legal Hustle Clothing | MMXI
 
 ----
 
@@ -14,12 +14,12 @@ Caption:
 
 ----
 
-Secondary: We are a wedding photography company based in Calgary, Alberta, Canada
+Secondary: 
 
 ----
 
-Secondary-caption: Available for bookings in the Calgary area and international destinations.
+Secondary-caption: 
 
 ----
 
-Calltoactiontext: Let's get in touch
+Calltoactiontext: 

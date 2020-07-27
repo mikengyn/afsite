@@ -7,26 +7,25 @@
                 <div class="large-2 medium-3 columns">
                     <ul>
                         <li>
-                            <img src="<?php echo  $site->images()->find('header_logo_white.png')->url() ?>"/>
+                            <img src="content/LHCLogo.png"/>
                         </li>
                     </ul>
                 </div>
 
                 <div class="large-3 medium-4 columns large-offset-2 medium-offset-1 ">
                     <ul>
-                        <a href="mailto:<?php echo $site->email()?>" target="_blank"><i class="fa fa-envelope"></i></a>
-                        <a href="<?php echo $site->facebook()?>"><i class="fa fa-facebook-square"></i></a>
-                        <a href="<?php echo $site->instagram()?>"><i class="fa fa-instagram"></i></a>
+                     <li><a href="https://legalhustleclothing.com/shop/product-category/adults">Adults</a></li>
+                     <li><a href="https://legalhustleclothing.com/shop/product-category/littlehustlersclothing/">Little Hustlers</a></li>
+                     <li><a href="mailto:info@legalhustleclothing.com">Contact</a></li>
                     </ul>
                 </div>
 
 
                 <div class="large-3 medium-4 columns large-offset-1 right">
-
-                    <!--data-reveal-id="joinModal"-->
-                    <a href="<?php echo $site->find('contact')->id() ?>">
-                        <span class="btn">Contact AXISFOCAL</span>
-                    </a>
+                       <a href="mailto:info@legalhustleclothing.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="<?php echo $site->facebook()?>"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/legalhustleinc"><i class="fa fa-twitter"></i></a>
+                        <a href="<?php echo $site->instagram()?>"><i class="fa fa-instagram"></i></a>
                 </div>
 
 
@@ -52,7 +51,7 @@
 
                 <ul>
                     <li>
-                        <img style="margin-left:-7px" src="<?php echo  $site->images()->find('header_logo_white.png')->url() ?>" />
+                        <img src="content/LHCLogo.png" />
                     </li>
                 </ul>
             </div>
@@ -65,9 +64,10 @@
             <div class="small-12 columns social-media-mobile footer-mobile">
                 <ul>
                     <li>
-                        <a href="mailto:<?php echo $site->email()?>" target="_blank"><i class="fa fa-envelope"></i></a>
-                        <a href="<?php echo $site->facebook()?>"><i class="fa fa-facebook-square"></i></a>
-                        <a href="<?php echo $site->instagram()?>"><i class="fa fa-instagram"></i></a>
+                   <a href="mailto:info@legalhustleclothing.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                                     <a href="<?php echo $site->facebook()?>"><i class="fa fa-facebook"></i></a>
+                                     <a href="https://twitter.com/legalhustleinc"><i class="fa fa-twitter"></i></a>
+                                     <a href="<?php echo $site->instagram()?>"><i class="fa fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
